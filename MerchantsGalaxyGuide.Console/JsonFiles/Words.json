@@ -1,0 +1,22 @@
+[
+  {
+    "content": "is",
+    "type": "Operator"
+  },
+  {
+    "content": "how",
+    "type": "PrimaryQuery"
+  },
+  {
+    "content": "many",
+    "type": "SupportingQuery"
+  },
+  {
+    "content": "much",
+    "type": "SupportingQuery"
+  },
+  {
+    "content": "?",
+    "type": "QueryDelimiter"
+  }
+]

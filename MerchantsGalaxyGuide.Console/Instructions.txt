@@ -1,0 +1,36 @@
+﻿=======================================================================================================
+Execution
+=======================================================================================================
+Rebuild the Visual Studio Solution (which will restore the Nuget packages).
+Run the Solution.
+
+=======================================================================================================
+Prerequisites
+=======================================================================================================
+1. .NET Framework 4.6.1
+2. Nuget Packages - NewtonSoft.Json, Unity, MSTest Frameworks and Adapters.
+3. Visual Studio 2017 (preferably).
+
+=======================================================================================================
+Solution Projects
+=======================================================================================================
+1. MerchantsGalaxyGuide.Console: 
+	1. This the main executable C# console application. Set this project as start up project.
+	2. Use Input.txt to give inputs to the program. Already sample inputs are included in the Input.txt file.
+	3. Json files (under JsonFiles folder) are used to configure Reference Words and Sentence Type Definitions.
+2. MerchantsGalaxyGuide.Tests:
+	1. Unit test cases are written using MSTest.
+3. MerchantsGalaxyGuide.Model:
+	1. This project holds all the models of solution.
+4. MerchantsGalaxyGuide.Common:
+	1. This project holds all the artifacts related to common resources like utilities etc.
+5. MerchantsGalaxyGuide.Contracts:
+	1. All the interface contracts are defined in this project.
+6. MerchantsGalaxyGuide.Parsers:
+	1. This project houses all the required parsers like Sentence and Word parsers.
+7. MerchantsGalaxyGuide.Handlers:
+	1. This project holds all the different handlers which are required to process different sentence types.
+8. MerchantsGalaxyGuide.Core:
+	1. This project includes the core execution artifacts like Execution Context, Configuration etc.
+	
+	

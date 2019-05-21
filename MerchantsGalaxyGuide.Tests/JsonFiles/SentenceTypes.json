@@ -1,0 +1,126 @@
+[
+  {
+    "type": "Declarative",
+    "result": {
+      "format": "Input Recorded.",
+      "arguments": "0"
+    },
+    "rules": [
+      {
+        "wordtype": "Constant",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Operator",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Roman",
+        "occurance": "1"
+      }
+    ]
+  },
+  {
+    "type": "Imperative",
+    "result": {
+      "format": "Input Recorded.",
+      "arguments": "0"
+    },
+    "rules": [
+      {
+        "wordtype": "Constant",
+        "occurance": "*"
+      },
+      {
+        "wordtype": "Product",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Operator",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Number",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Unit",
+        "occurance": "1"
+      }
+    ]
+  },
+  {
+    "type": "Interrogative",
+    "result": {
+      "format": "{0} is {1}",
+      "arguments": "2"
+    },
+    "rules": [
+      {
+        "wordtype": "PrimaryQuery",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "SupportingQuery",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Operator",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Constant",
+        "occurance": "*"
+      },
+      {
+        "wordtype": "QueryDelimiter",
+        "occurance": "1"
+      }
+    ]
+  },
+  {
+    "type": "Interrogative",
+    "result": {
+      "format": "{0} {1} is {2} {3}",
+      "arguments": "4"
+    },
+    "rules": [
+      {
+        "wordtype": "PrimaryQuery",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "SupportingQuery",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Unit",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Operator",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "Constant",
+        "occurance": "*"
+      },
+      {
+        "wordtype": "Product",
+        "occurance": "1"
+      },
+      {
+        "wordtype": "QueryDelimiter",
+        "occurance": "1"
+      }
+    ]
+  },
+  {
+    "type": "Invalid",
+    "result": {
+      "format": "I have no idea what you are talking about",
+      "arguments": "0"
+    },
+    "rules": []
+  }
+]

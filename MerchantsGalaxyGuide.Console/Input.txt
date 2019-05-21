@@ -1,0 +1,27 @@
+﻿one is I
+five is V
+ten is X
+fifty is L
+hundred is C
+fivehundred is D
+thousand is M
+ten five one Silver is 48 credits
+one one Platinum is 10 units
+hundred fifty Gold is 600 credits
+thousand fivehundred hundred Iron is 3200 Credits
+how much is hundred thousand ten five one ?
+how much is hundred fifty ten five ?
+how much is thousand one one ?
+how much is fifty ten five one ?
+how many credits is ten fifty five Silver ?
+how many credits is thousand Gold ?
+how many units is hundred thousand Platinum ?
+how many units is fifty ten one Iron ?
+how many units is pik pok pom Silver ?
+how many credits is one five five Iron ?
+how many credits is hundred fivehundred fifty Gold ?
+how many units is bon bing bang Iron ?
+how much credits is thousand Gold ?
+how many is fifty one Silver ?
+how many credits is one one pom Iron ?
+how credits is five hundred Gold ?
